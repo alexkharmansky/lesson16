@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+  	
+	<a href="#menu" class="menu-link">
+		<span></span>
+	</a>
+	
+	<div class="menu">
+		<ul>
+			<li><a href="#main">Главная</a></li>
+			<li><a href="#news">Новости</a></li>
+			<li><a href="#portfolio">Портфолио</a></li>
+			<li><a href="#contacts">Контакты</a></li>
+			<li><a href="#map">Карта</a></li>
+		</ul>
+	</div>
+	
+	<section id="main">
+		<h2>Главная</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aperiam, minus fugit molestias omnis maxime rem quam autem quae, a numquam laudantium fugiat quaerat cupiditate tempore quo, provident aliquam consectetur! Est, veniam voluptas, ad officiis eius cumque nobis deserunt? Velit explicabo voluptates quo, et quibusdam quasi commodi libero! Quisquam illum perferendis repudiandae facilis provident! Delectus voluptate at, atque eius, nesciunt sunt eos tempore possimus architecto necessitatibus qui voluptatem nobis cum! In odit quos amet sunt veniam eos facere, possimus, at laborum aperiam numquam, dolores nihil omnis recusandae ex accusamus. Accusantium neque consectetur praesentium suscipit quae quod, dolor, nostrum deserunt iste.</p>
+	</section>
+	<section id="news">
+		<h2>Новости</h2>
+		<p>Aperiam eius distinctio dicta, alias molestiae natus impedit fuga possimus voluptas! Cumque saepe ipsum perferendis nam possimus molestiae tempora ratione ex iusto veritatis tempore vel quibusdam hic impedit quo rerum, suscipit dolorem est porro tenetur ea eligendi ullam sed officiis! Omnis dolore id veritatis nihil dolor rem autem explicabo tempore architecto, soluta sapiente eveniet ullam magni animi perspiciatis adipisci, repudiandae iure minus ipsum. Ullam, exercitationem consequatur tenetur odit ratione sapiente rerum commodi necessitatibus repellat ipsum minima aliquid reiciendis soluta non et vero quasi dicta blanditiis facilis deleniti autem quos natus. Repellat, quam aliquam dolorem culpa quibusdam necessitatibus! Ipsa, nobis, non?</p>
+	</section>
+	<section id="portfolio">
+		<h2>Портфолио</h2>
+		<p>Neque iusto dolor accusantium similique obcaecati sint officiis voluptatibus explicabo ipsam quibusdam perspiciatis soluta, quae voluptate praesentium. Quaerat soluta excepturi praesentium maxime tempora laudantium corrupti reiciendis rerum, quia rem vitae, incidunt commodi modi, a ipsa neque voluptatibus quis deleniti aliquam delectus officia officiis quod in. Veniam at, velit blanditiis sed illum. Ratione, veritatis, velit? Non dolore sunt officiis, itaque provident, doloribus suscipit quaerat? Doloribus alias repellat dolore minus ducimus sapiente iste accusamus aspernatur vero ab vitae modi soluta, incidunt praesentium ipsum quae, quos odit cumque non perspiciatis eligendi. Nobis labore illo perspiciatis, impedit eligendi eos reiciendis explicabo blanditiis ipsum voluptas?</p>
+	</section>
+	<section id="contacts">
+		<h2>Контакты</h2>
+		<p>Nam minus eum doloremque hic, voluptatibus aut quo harum! Facilis ad minus praesentium impedit velit earum corporis ipsa suscipit cumque quam. Voluptatem totam alias recusandae obcaecati ad eius expedita ratione. Quisquam minima, sit, fugit labore nesciunt enim magnam quaerat amet. Omnis quod asperiores saepe sunt quaerat laborum error hic harum natus, molestiae ipsa veniam placeat at voluptas, similique qui corporis? Temporibus quos provident fugit, nihil quaerat officia numquam fuga natus, non accusamus, architecto ad deleniti autem. Consectetur odit laboriosam incidunt, at numquam ipsam eos explicabo ratione tempora rerum dolor facilis temporibus ex aut rem magnam exercitationem illum nesciunt error amet.</p>
+	</section>
+	<section id="map">
+		<h2>Карта</h2>
+		<p>Ad ut, eos sunt, aspernatur quam harum earum repellat impedit, blanditiis dolore repellendus dicta sit accusamus non laboriosam minima tempore tempora explicabo id deleniti. Veritatis ipsam non amet tempora, cumque obcaecati deleniti totam est iste, eveniet eos veniam numquam exercitationem doloribus enim dolorum fugiat quaerat temporibus reiciendis ducimus sunt debitis rem dignissimos aspernatur voluptatibus. Voluptates suscipit voluptatibus ipsam dolorem labore nesciunt tempore tempora blanditiis similique dolores veniam sunt soluta deserunt quasi optio ratione minima ex, quibusdam reiciendis id totam magni! Vitae, minima, obcaecati velit inventore voluptas, facere voluptatem unde quia quasi, enim labore ipsa quod consequuntur dignissimos libero? Quisquam, sequi.</p>
+	</section>
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var link = $('.menu-link');
+			var link_active = $('.menu-link_active');
+			var menu = $('.menu');
+			var nav_link = $('.menu a');
+
+			link.click(function(){
+				link.toggleClass('menu-link_active');
+				menu.toggleClass('menu_active');
+			});
+			nav_link.click(function(){
+				link.toggleClass('menu-link_active');
+				menu.toggleClass('menu_active');
+			});
+		});
+	</script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
